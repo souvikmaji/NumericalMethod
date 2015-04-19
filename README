@@ -1,0 +1,7 @@
+Numerical methods assignments for Jadavpur University 2nd year 2nd semeseter numerical methods lab.
+Questions are given in "Numerical Methods Lab Assignments.pdf".
+To build the sources just type in your terminal:
+        make
+Then to run each executable type
+        ./program_name
+
