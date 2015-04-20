@@ -1,24 +1,24 @@
 #Makefile for numerical methods assignment
 CFLAGS := -lm
 
-all: bisection gauss newtonraphson1 trapezoidal euler gauss-jordan newtonraphson2 euler_modified gauss_siedel secant falsi iterative simpson
+all: bisection gauss newton_raphson1 trapezoidal euler gauss_jordan newton_raphson2 euler_modified gauss_siedel secant falsi iterative simpson modified_euler
 
 clean:
-	-rm -rf *.o *.so bisection gauss newtonraphson1 trapezoidal euler gauss-jordan newtonraphson2 euler_modified gauss_siedel secant falsi iterative simpson
+	-rm -rf *.o *.so bisection gauss newtonraphson1 trapezoidal euler gauss_jordan newton_raphson2 euler_modified gauss_siedel secant falsi iterative simpson modified_euler
 
 bisection:
 
 gauss:
 
-newtonraphson1:
+newton_raphson1:
 
 trapezoidal:
 
 euler:
 
-gauss-jordan:
+gauss_jordan:
 
-newtonraphson2:
+newton_raphson2:
 
 euler_modified:
 
@@ -31,3 +31,5 @@ falsi:
 iterative:
 
 simpson:
+
+modified_euler:

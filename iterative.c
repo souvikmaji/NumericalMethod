@@ -40,7 +40,7 @@ int main()
     printf("Solution of e^x - 4x^2 = 0 using fixed point iteration\n");
     printf("Initial Approximation: 1\n");
 
-    printf("i\tRoot\t\tG'(Root)\tF(Root)\t\tAbsoluteError\torderConvergence\n",newAbsError, log(newAbsError)/log(oldAbsError));
+    printf("i\tRoot\t\tG'(Root)\tF(Root)\t\tAbsoluteError\torderOfConvergence\n",newAbsError, log(newAbsError)/log(oldAbsError));
 
     do
     {

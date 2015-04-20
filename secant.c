@@ -20,8 +20,8 @@ double f(double x)
 
 int main()
 {
-	printf("Solution of e^x = 2x +1 using secants method\n");
-	printf("Initial guess: 1\n");
+    printf("Solution of e^x = 2x +1 using secants method\n");
+    printf("Initial guess: 1\n");
     double veryOldRoot = 1, oldRoot = 3, newRoot;
     double oldError = 2;
     double newError;
